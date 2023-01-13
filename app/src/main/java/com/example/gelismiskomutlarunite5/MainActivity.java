@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnUyg5(View view) {
-        Intent uyg = new Intent(MainActivity.this, Uyg5Activity.class);
+        Intent uyg = new Intent(MainActivity.this, uyg5_Activity.class);
         startActivity(uyg);
     }
 
@@ -80,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void topla1(View view) {
         Intent uyg = new Intent(MainActivity.this, SS_165_Activity.class);
+        startActivity(uyg);
+    }
+    public void ss173(View view) {
+        Intent uyg = new Intent(MainActivity.this, SS_173_Activity.class);
         startActivity(uyg);
     }
 }
